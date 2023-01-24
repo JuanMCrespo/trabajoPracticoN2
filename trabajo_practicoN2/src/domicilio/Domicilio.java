@@ -6,6 +6,15 @@ public class Domicilio {
 	protected int numero;
 	protected String ciudad;	
 	protected int codigo_postal;
+	
+	
+		public Domicilio(String calle, int numero, String ciudad, int codigo_postal) {
+			this.calle = calle;
+			this.numero = numero;
+			this.ciudad = ciudad;
+			this.codigo_postal = codigo_postal;
+	}
+				
 	public String getCalle() {
 		return calle;
 	}

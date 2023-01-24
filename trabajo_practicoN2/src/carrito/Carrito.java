@@ -9,6 +9,15 @@ public class Carrito {
 	protected double pago;
 	protected String aviso;
 	
+		
+	public Carrito(Producto producto_Elegido, String mensaje_de_Envio, double pago, String aviso) {
+		this.producto_Elegido = producto_Elegido;
+		this.Mensaje_de_Envio = mensaje_de_Envio;
+		this.pago = pago;
+		this.aviso = aviso;
+	}
+	
+	
 	public Producto getProducto_Elegido() {
 		return producto_Elegido;
 	}

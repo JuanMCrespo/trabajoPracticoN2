@@ -11,6 +11,14 @@ public class listaRegalo {
 	protected Date fechafin;
 	protected Domicilio envio;
 	protected String nombre;
+	
+	
+	public listaRegalo(Producto regalo, Date fechafin, Domicilio envio, String nombre) {
+		this.regalo = regalo;
+		this.fechafin = fechafin;
+		this.envio = envio;
+		this.nombre = nombre;
+	}
 	public Producto getRegalo() {
 		return regalo;
 	}

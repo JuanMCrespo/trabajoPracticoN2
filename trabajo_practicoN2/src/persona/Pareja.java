@@ -7,6 +7,15 @@ public class Pareja  {
 	protected Persona prometido1;
 	protected Persona prometido2;
 	protected listaRegalo lista;
+	
+		
+	public Pareja(Persona prometido1, Persona prometido2, listaRegalo lista) {
+		this.prometido1 = prometido1;
+		this.prometido2 = prometido2;
+		this.lista = lista;
+	}
+	
+	
 	public Persona getPrometido1() {
 		return prometido1;
 	}
