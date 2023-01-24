@@ -9,7 +9,9 @@ import persona.Producto;
 public class testProducto {
 
 	public static void main(String[] args) {
-		List<Producto> Listado_Prod = new ArrayList<Producto>();
+		List<Producto> Listado_Prod;
+		
+		Listado_Prod = new ArrayList<Producto>();
 		
 			Producto pr1 = new Producto("Heladera",15000,null);
 			Producto pr2 = new Producto("Cocina",80000,null);
